@@ -10,7 +10,7 @@ type RequestForPlaceTriggerOrder struct {
 	// Type stop, trailingStop, takeProfit. default is stop
 	Type             string  `json:"type"`
 	Side             string  `json:"side"`
-	TriggerPrice     float64 `json:"triggerPrice"`
+	TriggerPrice     float64 `json:"triggerPrice,omitempty"`
 	TrailValue 		 float64 `json:"trailValue"`
 	Size             float64 `json:"size"`
 	ReduceOnly       bool    `json:"reduceOnly,omitempty"`
