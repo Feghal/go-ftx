@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"github.com/buger/jsonparser"
-	"github.com/go-numb/go-ftx/rest/private/fills"
-	"github.com/go-numb/go-ftx/rest/private/orders"
-	"github.com/go-numb/go-ftx/rest/public/markets"
-	"github.com/go-numb/go-ftx/types"
+	"github.com/Feghal/go-ftx/rest/private/fills"
+	"github.com/Feghal/go-ftx/rest/private/orders"
+	"github.com/Feghal/go-ftx/rest/public/markets"
+	"github.com/Feghal/go-ftx/types"
 	"github.com/gorilla/websocket"
 )
 

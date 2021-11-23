@@ -11,6 +11,7 @@ type RequestForPlaceTriggerOrder struct {
 	Type             string  `json:"type"`
 	Side             string  `json:"side"`
 	TriggerPrice     float64 `json:"triggerPrice"`
+	TrailValue 		 float64 `json:"trailValue"`
 	Size             float64 `json:"size"`
 	ReduceOnly       bool    `json:"reduceOnly,omitempty"`
 	RetryUntilFilled bool    `json:"retryUntilFilled,omitempty"`
